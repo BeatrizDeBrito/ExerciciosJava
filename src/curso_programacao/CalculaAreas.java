@@ -24,7 +24,5 @@ public class CalculaAreas {
         System.out.printf(Locale.US,"CIRCULO:  %.3f%n", areaCirculo);
 
 
-
-
     }
 }
