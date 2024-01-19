@@ -14,20 +14,12 @@ public class Multiplos {
 
         scanner.close();
 
-        if (A > B){
+        if (A > B || B > A){
             if( A % B == 0){
                 System.out.println("Sao Multiplos");
             } else{
                 System.out.println("Nao sao Multiplos");
             }
         }
-        if (B > A){
-            if( B % A == 0){
-                System.out.println("Sao Multiplos");
-            } else{
-                System.out.println("Nao sao Multiplos");
-            }
-        }
-
     }
 }
