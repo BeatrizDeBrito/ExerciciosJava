@@ -10,7 +10,5 @@ public class ValorDoDesconto {
         double desconto =  (preco < 20.0) ? preco * 0.1 :  preco *0.05;
         System.out.println("Valor desconto: " + desconto);
         scanner.close();
-
-
     }
 }
